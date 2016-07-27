@@ -16,13 +16,6 @@ h2 {
   padding-bottom:5px;
   }
 
-.p {
-  border: 1px solid black;
-  margin: 5%;
-  margin-left:20%;
-  margin-right:20%
-  }
-
 body {
   margin:3%;
   padding:0;
@@ -30,8 +23,8 @@ body {
   font:x-small Verdana,Sans-serif;
   #voice-family: "\"}\""; voice-family:inherit;
   font-size:small;
-  margin-left:30%;
-  margin-right:30%
+  margin-left:20%;
+  margin-right:20%
   }
 
 hebrew {

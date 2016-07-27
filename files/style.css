@@ -1,0 +1,60 @@
+/* CSS Document */
+.left {text-align: right}
+.indent {margin-left:25%}
+img {
+  align:center
+  width=100%
+  }
+
+h2 {
+  color:#666;
+  font-size:100%;
+  border-bottom:1px dashed #999;
+  margin:15px 0 5px 0;
+  padding-bottom:5px;
+  }
+
+.p {
+  border: 1px solid black;
+  margin: 5%;
+  margin-left:20%;
+  margin-right:20%
+  }
+
+body {
+  margin:3%;
+  padding:0;
+  text-align: justify;
+  background:#fff url("../images/cs0/bg_left.gif") repeat-y;
+  font:x-small Verdana,Sans-serif;
+  voice-family: "\"}\""; voice-family:inherit;
+  font-size:small;
+  margin-left:20%;
+  margin-right:20%
+  }
+
+hebrew { 
+text-align: right dir=rtl
+  }
+
+
+.console {margin-bottom: 20px;border: thin solid #000099; padding:5px; margin-top: 5px;background-color:#E2E2E2;position:relative;font-family: monospace !important; margin-left:10%;margin-right:10%}
+
+.mainTitle { }
+
+.accountTable {  }
+
+.numberCell { text-align: right }
+
+.stringCell { text-align: left }
+
+.titleCell { text-align: center; font-weight: bold ; background-color : #efefef }
+
+.numberResultCell { text-align: right; font-weight: bold }
+
+.sideCell {font-weight : bold ; background-color : #efefef }
+
+.navbar {font-size: 100%; font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; background: #FFFF66 ; border-style: none none solid none; border-width: thin; padding: 2px;}
+
+
+ 

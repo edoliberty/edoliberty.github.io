@@ -30,7 +30,16 @@ body {
 hebrew {
   text-align: right dir=rtl
   }
- 
+
+.button {
+  background-color: #FF9900; /* Green */
+  border: black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 td { 
     font:x-small Verdana,Sans-serif;
     font-size:small; 

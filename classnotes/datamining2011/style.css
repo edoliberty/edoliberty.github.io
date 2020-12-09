@@ -1,0 +1,74 @@
+/* CSS Document */
+
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+::selection {
+  background-color: #33CC99;
+}
+
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1,
+h1.display-1,
+h1.display-2,
+h1.display-3,
+h1.display-4 {
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: #031bb3;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin-top: 1em;
+}
+
+li + li {
+  margin-top: .5em;
+}
+
+li p {
+  margin: 0 0 .25em;
+}
+
+.toc {
+  position: sticky;
+  top: 0;
+}
+

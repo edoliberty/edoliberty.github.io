@@ -34,7 +34,7 @@
               <div class="row mt-3">
                 <div class="col-12">
                   <p>
-                    I'm the founder and CFO of <a href="http://www.pinecone.io">Pinecone</a>, the first vector database for machine learning.
+                    I'm the founder and CEO of <a href="http://www.pinecone.io">Pinecone</a>, the first vector database for machine learning.
                   </p>
                   <p>
                   	Until April 2019, I was a Director of Research at AWS and Head of Amazon AI Labs. The Lab built cutting-edge machine learning algorithms, systems, and services for AWS customers. We build parts of SageMaker, Kinesis, QuickSight, Amazon ElasticSearch, Glue, Rekognition, DeepRacer, Personalize, Forecast, and other yet-to-be-released services from AWS.
@@ -367,6 +367,7 @@
                   </h6>
                   <p>Pigi Kouki, Ilias Fountalis, Nikolaos Vasiloglou, Xiquan Cui, Edo Liberty, Khalifeh Al Jadda</p>
                   <p>RecSys 2020</p>
+                  <p><b>tl;dr:</b> The paper shows how The HomeDepot built their recommendation engine and how they use Pinecone's vector database to serve it in real time in production.</p>
                 </li>
                 <li>
                   <h6>
@@ -378,6 +379,7 @@
                     Philip
                     Gautier, Tim Januschowski, Valentin Flunkert, David Arpin, and Alex Smola.</p>
                   <p>SIGMOD 2020</p>
+                  <p><b>tl;dr:</b> The culmination of more than two years of work, this paper describes the algorithms and distributed architecture behind Amazon SageMaker's slastic ML algorithms.</p>
                 </li>
                 <li>
                   <h6>
@@ -385,46 +387,44 @@
                   </h6>
                   <p>Zohar Karnin and Edo Liberty</p>
                   <p>COLT 2019</p>
+                  <p><b>tl;dr:</b> This ML-theory paper shows that many types of machine learning models have much smaller coresets than those previously known. As a special case of the general result, it resolves the open problem regarding the coreset complexity of gaussian density estimation.</p>
                 </li>
                 <li>
                   <h6><a href="http://arxiv.org/abs/1603.05346">Optimal Quantile Approximation in Streams</a></h6>
                   <p>Zohar Karnin, Kevin Lang, Edo Liberty</p>
                   <p>FOCS 2016</p>
-                  <p><a href="https://edoliberty.github.io/papers/streamingQuantiles.pdf">[slides]</a></p>
+                  <p><b>tl;dr:</b> The paper resolves one of the longest standing and basic problems in the streaming algorithms literature. Namely, optimally approximating ranks and quantiles in streaming data. <a href="https://edoliberty.github.io/papers/streamingQuantiles.pdf">[slides]</a></p>
                 </li>
                 <li>
                   <h6>
                     <a href="https://edoliberty.github.io/papers/simpleMatrixSketching.pdf">Simple and Deterministic Matrix Sketches</a>
                   </h6>
-                  <p>Edo Liberty (see
-                    <a href="https://edoliberty.github.io/papers/simpleMatrixSketchingPresentationShort.pdf">slides</a>
-                    and
-                    <a href="https://edoliberty.github.io/public/experimentalresults/">experimental results</a> in
-                    <a href="http://www.json.org/">json format</a>)</p>
-                  <p>Also, here is
-                    <a href="http://simons.berkeley.edu/talks/edo-liberty-2013-09-16">talk I gave at the Simons Institute</a>
-                    about this.</p>
-                  <p><b>Best paper award</b> at KDD 2013 <a href="https://edoliberty.github.io/bibs/Liberty13.bib">[bib]</a>
-                  </h6>
-                  <p>See also <a href="https://github.com/edoliberty/frequentdirections">frequent direction git repo</a>
-                    by
-                    <a href="http://www.cs.utah.edu/~ghashami/">Mina Ghashami</a> and myself.</p>
+                  <p>Edo Liberty</p>
+                  <p>KDD 2013, <b>Best paper award</b></p>
+                  <p> <b>tl:dr:</b> This paper introduced frequent-directions, an incredibly simple, practically efficient, and theoretically optimal algorithm for approximating the covariance of vector streams. 
+                  <a href="https://edoliberty.github.io/papers/simpleMatrixSketchingPresentationShort.pdf">[slides]</a>,
+                  <a href="https://edoliberty.github.io/public/experimentalresults/">[experimental results]</a>, 
+                  <a href="http://simons.berkeley.edu/talks/edo-liberty-2013-09-16">[talk]</a>, 
+                  <a href="https://edoliberty.github.io/bibs/Liberty13.bib">[bib]</a>.
+                  <a href="https://github.com/edoliberty/frequentdirections">[git repo]</a>.
                 </li>
 				<li>
                   <h6>
                     <a href="https://edoliberty.github.io/papers/threadingMachineGeneratedEmail.pdf">Threading Machine Generated Email</a>
                   </h6>
                   <p>Nir Ailon, Zohar Karnin, Edo Liberty, Yoelle Maarek </p>
-                  <p><b>Best paper award</b> at TechPulse 2012 and WSDM 2013
-                    <a href="https://edoliberty.github.io/bibs/AilonKLM13.bib">[bib]</a></p>
+                  <p>TechPulse 2012, <b>Best paper award</b> and WSDM 2013</p>
+                  <p><b>tl:dr</b> the paper shows how to use sketches to find causality relations between billions of events using trillions of observations. 
+                  <a href="https://edoliberty.github.io/bibs/AilonKLM13.bib">[bib]</a></p>
                 </li>
                 <li>
                   <h6>
                     <a href="https://edoliberty.github.io/papers/fjlt_rerevisited.pdf"> An Almost Optimal Unrestricted Fast Johnson-Lindenstrauss Transform</a>
                   </h6>
                   <p>Nir Ailon, Edo Liberty </p>
-                  <p><b>Best paper award</b> at SODA 2011 <a href="https://edoliberty.github.io/bibs/AilonL11.bib">[bib]</a>
-                  </h6>
+                  <p>SODA 2011, <b>Best paper award</b></p> 
+                  <p><b>tl:dr</b> The main result of my PhD work on fast dimension reduction. Specifically, matching the optimal target dimension of the Johnson-Lindenstrauss lemma with fast projection algorithms. <a href="https://edoliberty.github.io/bibs/AilonL11.bib">[bib]</a>
+                  </p>
                 </li>
           	  </ul>
           	</div>
@@ -575,7 +575,7 @@
                   <p>Also, here is
                     <a href="http://simons.berkeley.edu/talks/edo-liberty-2013-09-16">talk I gave at the Simons Institute</a>
                     about this.</p>
-                  <p><b>Best paper</b> at KDD 2013 <a href="https://edoliberty.github.io/bibs/Liberty13.bib">[bib]</a>
+                  <p><b>Best paper at KDD 2013</b> <a href="https://edoliberty.github.io/bibs/Liberty13.bib">[bib]</a>
                   </h6>
                   <p>See also <a href="https://github.com/edoliberty/frequentdirections">frequent direction git repo</a>
                     by
@@ -586,7 +586,7 @@
                     <a href="https://edoliberty.github.io/papers/threadingMachineGeneratedEmail.pdf">Threading Machine Generated Email</a>
                   </h6>
                   <p>Nir Ailon, Zohar Karnin, Edo Liberty, Yoelle Maarek </p>
-                  <p><b>Best paper</b> at TechPulse 2012 and WSDM 2013
+                  <p><b>Best paper at TechPulse 2012</b> and WSDM 2013
                     <a href="https://edoliberty.github.io/bibs/AilonKLM13.bib">[bib]</a></p>
                 </li>
                 <li>
@@ -609,7 +609,7 @@
                     <a href="https://edoliberty.github.io/papers/fjlt_rerevisited.pdf"> An Almost Optimal Unrestricted Fast Johnson-Lindenstrauss Transform</a>
                   </h6>
                   <p>Nir Ailon, Edo Liberty </p>
-                  <p><b>Best paper</b> at SODA 2011 <a href="https://edoliberty.github.io/bibs/AilonL11.bib">[bib]</a>
+                  <p><b>Best paper at SODA 2011</b> <a href="https://edoliberty.github.io/bibs/AilonL11.bib">[bib]</a>
                   </h6>
                 </li>
                 <li>
